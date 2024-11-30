@@ -8,7 +8,7 @@ public interface Interfacecocept {
 class Concept1 implements Interfacecocept{
     @Override
     public void add(int a, int b) {
-        System.out.println("The addition of the 2 numbers is :"+(a+b));
+        System.out.println("The addition of the 2 numbers is :" + (a + b));
     }
 
     @Override
