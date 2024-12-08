@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class UserInputDemo {
+    public  static void addition(int a, int b){
+        System.out.println("The result of the multiplication is :"+a*b);;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the first number :");
+        int a=sc.nextInt();
+        System.out.println("Enter the second number :");
+        int b=sc.nextInt();
+
+     UserInputDemo.addition(a,b);
+
+
+    }
+}
