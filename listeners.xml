@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Learning">
+
+   <listeners>
+       <listener class-name="org.example.Listeners"></listener>
+   </listeners>
+
+    <test name="Testing3">
+        <classes>
+
+            <class name="org.example.GroupingInTestNg"></class>
+        </classes>
+    </test>
+</suite>

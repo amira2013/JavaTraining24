@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Learning">
+
+   <parameter name="x" value="18"></parameter>
+    <parameter name="y" value="17"></parameter>
+
+    <test name="Testing2">
+        <classes>
+
+            <class name="org.example.MultiBrowserParametrization"></class>
+        </classes>
+    </test>
+
+
+</suite>
